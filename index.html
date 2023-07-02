@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fichero</title>
+       
+    <!--bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!--sweet alert-->
+    <script src = " https://unpkg.com/sweetalert/dist/sweetalert.min.js "> </script> 
+    <link rel="stylesheet" href="/style.css">
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+  <!--logueo-->
+    <div>
+      <div class="card">
+        <div class="card-header"><h2>FICHERO CALCULADOR DE SUELDO</h2></div>
+        <div class="card-body" id="logueo" >
+        <h5 class="card-title" id="sacarDespues2">¡Bienvenido!</h5>
+        <p class="card-text" id="sacarDespues">La siguiente informacion es privada, le pedimos que se loguee para confirmar su identidad.</p>
+        
+          <input type="button" class="btn btn-light" value="Loguearse" id="btnVerLogin">
+
+        <div id="verLogin">
+
+
+          <form id="formularioLogin">
+            <input type="text" id="userID" placeholder="Ingrese el ID">
+            <input type="password" id="userPass" placeholder="Ingrese la contraseña">
+            <input type="submit" value="Ingresar" id="btnSubmit" class="btn btn-primary">
+          </form>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div id="seleccionDeTrabajador">
+    </div>
+    
+    <div id="cardTrabajadores"></div>
+
+    <div id="calendarioFormulario"></div>
+
+    <div id="calendario"></div>
+
+    <div id="calculadoraSueldo"></div>
+
+    <div id="registroSueldos"></div>
+
+    <div id="sueldosLS"></div>
+
+
+    <script src="/script.js"></script>
+</body>
+</html>
+
+

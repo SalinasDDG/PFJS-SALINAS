@@ -1,0 +1,212 @@
+/*
+    rgb(37, 145, 145)
+    rgb(134, 132, 228)
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Arvo', serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Lilita One', cursive;
+*/
+
+
+
+/*body*/
+body{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*card logueo*/
+div.card-header{
+    background-color: rgb(134, 132, 228);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.card-header h2{
+    font-family: 'Lilita One', cursive;
+}
+
+h4{font-family: 'Roboto Mono', monospace;}
+
+#verLogin{
+    display: none;
+}
+
+#formularioLogin{
+    width: 30%;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#userID{
+    margin: 10px;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+#userPass{
+    margin: 10px;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+#selector{
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+#btnSubmit{ width: 100px;}
+
+
+
+/*card trabnajadores*/
+
+#cardTrabajadores{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+h3.card-title{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 22px;
+}
+
+p.card-text{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+}
+
+h5{
+    font-family: 'Roboto Mono', monospace;
+}
+
+div.cardsCalendario{
+    display: flex;
+    flex-direction: row;
+}
+
+div.card{
+   margin: 10px;
+
+}
+
+div.card-body{
+    background-color: rgb(232, 242, 250);
+}
+
+
+
+/*calendario*/
+
+div.card h4{
+    padding: 10px;
+    background-color: rgb(232, 242, 250);
+    font-family: 'Roboto Mono', monospace;
+}
+
+div.calendario{ padding: 5px;
+    width: auto;
+}
+ol.dias{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 0px;
+    text-align: center;
+    
+    overflow: hidden;
+}
+
+li.diaNombre{
+    background-color: rgb(15, 96, 163);
+    text-align: center;
+    font-size: 8PX;
+    color: white;
+    width: px;
+}
+
+ol.dias li{
+    font-size: 8px;
+    padding: 0px;
+
+}
+
+div.inputsCalend{
+    display: flex;
+    flex-direction: column;
+}
+
+input.imputCalend{
+    width: 250px;
+}
+
+
+/*formulario y calculo*/
+#mensajesResumen{
+    display: none;
+}
+#mensajesResumen h4.card-header{font-size: 20px;}
+h5.card-header{
+    background-color: rgb(232, 242, 250);
+    font-size: 20px;
+    padding: 5px;
+
+}
+p.textp{
+    padding: 5px;
+    font-size: 12px;    
+
+}
+
+#TardeForm{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#TardeForm input{
+    border-radius: 15px;
+    padding-left: 15px ;
+    margin: 5px;
+}
+
+
+h4.card-header{font-size: 25px; padding: 5px;}
+
+div #mensajes{padding: 5px;}
+
+div #mensajes p{padding: 5px; padding-left: 15px;}
+
+div #mensajes h6{padding: 8px ; }
+
+div #mensajes h4{font-size: 18px;}
+
+#mensajes button{border-radius: 15px; margin-left: 33%; margin-bottom: 10px;}
+
+/*formulario LS*/
+div.card-body h4{padding: 0px;padding-left: 10px;}
+
+#contenidoForm{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px;
+}
+#contenidoForm input{
+    margin: 10px;
+    border-radius: 15px;
+    padding-left: 25px;
+}
+#contenidoForm div button{width: 150px; border-radius: 20px;}
+
+#tableBody th{padding: 5px; width: auto;}
